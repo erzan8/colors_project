@@ -11,31 +11,54 @@
 
 
 </head>
-
+<div class="loader">
+    <div class="lds-ripple"><div></div><div></div></div>
+    <h2>Loading...</h2>
+    <p class="tip">To navigate between the different ambiances, please use arrows</p>
+    <img src="images/keyboard.png" class="keyboard">
+</div>
 <body>
-
+    <div class="main">
     <header>
         <nav>
             <h3 id="logo">Home</h3>
             <img class="hamburger" src="images/menu (1).png">
         </nav>
+        <div class="menu">
+            <ul>
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+
+            </ul>
+        </div>
     </header>
-    <section>
+    <div class="container">
+    <section class="section1">
         <div class="hero">
                 <div class="distortion"></div>
-            <img src="images/colors.jpg">
             <h1 class="headline">Colors</h1>
         </div>
+        <div class="slider"></div>
     </section>
-  
+    <section class="section2">
+        <div class="hero2">
+        <div class="distortion2"></div>
+        <h1 class="headline2">Neon</h1>
+    </div>
+    <div class="slider2"></div>
+    </section>
+</div>
+    
+    
 
-    <div class="slider"></div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/109/three.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
     <script src="./app.js"></script>
     <script src="./hover.js"></script>
     <script src="./hovereffect.js"></script>
+</div>
 </body>
 
 </html>
